@@ -10,11 +10,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
  */
 
 @Controller
-public class BookControllers {
+public class BookController {
 
     private final BookRepository bookRepository;
 
-    public BookControllers(BookRepository bookRepository) {
+    public BookController(BookRepository bookRepository) {
         this.bookRepository = bookRepository;
     }
 
